@@ -1,0 +1,15 @@
+@import-normalize;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap&family=Space+Grotesk&display=swap");
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

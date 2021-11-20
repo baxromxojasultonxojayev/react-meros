@@ -1,0 +1,150 @@
+.header{
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+.topHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #E8EDF1;
+  margin-top: -20px;
+}
+
+.buttonLang{
+  padding-top: 18px;
+}
+
+.topHeaderList{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-top: 18px;
+  font-size: 14px;
+}
+
+.location{
+  width: 20px;
+  border: 0px solid #01377F;
+}
+
+.topHeaderList li a{
+  padding: 0px 22px 0 20px;
+  color: #273142;
+  text-decoration: none;
+}
+
+.topHeaderList li a:hover{
+  color: #01377F;
+  cursor: pointer;
+}
+
+.topHeaderList li:first-child{
+  padding-left: 0;
+}
+
+.topHeaderList li:last-child{
+  padding-right: 10px
+}
+
+.logo{
+  width: 160px;
+  height: 55px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.catalogHeader{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 15px 0 15px 0;
+  /* border: 1px solid #E8EDF1; */
+}
+
+.catalog{
+  display: flex;
+  align-items: center;
+  background: #32386B;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 11px 23px 13px 18px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.menu{
+  width: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.searchInput{
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.search{
+  background: #32386B;
+  border-radius: 0px 4px 4px 0px;
+  color: white;
+  padding: 9px 10px 8px 15px;
+}
+
+.rightSide{
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.entrance{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  text-decoration: none;
+  color: #273142;
+
+}
+
+.entrance p{
+  padding-left: 10px;
+}
+
+.wishList{
+  display: flex;
+  align-items: center;
+  margin-left: 29px;
+  padding: 5px;
+  text-decoration: none;
+  color: #273142;
+
+}
+
+.wishList p{
+  padding-left: 10px;
+}
+
+
+.storage{
+  display: flex;
+  align-items: center;
+  margin-left: 29px;
+  padding: 5px;
+  text-decoration: none;
+  color: #273142;
+
+}
+
+.storage p{
+  padding-left: 10px;
+}

@@ -1,0 +1,35 @@
+.offer {
+  /* margin-top: 100px; */
+}
+
+.offerText {
+  font-weight: bold;
+  font-size: 18px;
+  color: #273142;
+  line-height: 21px;
+  /* padding-left: 40px; */
+}
+
+.offerList {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.offerItem {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.offerItem a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  color: #666666;
+  border-bottom: 0.5px solid transparent;
+}
+
+.offerItem a:hover {
+  transition: 0.5s;
+  color: rgb(130, 130, 240);
+  border-bottom: 0.5px solid rgb(248, 187, 187);
+}

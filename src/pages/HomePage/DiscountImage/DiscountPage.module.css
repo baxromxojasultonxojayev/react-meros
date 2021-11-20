@@ -1,0 +1,37 @@
+
+
+.images{
+  display: flex;
+  padding-left: 18px;
+}
+
+.firstImage{
+  width: 880px;
+  height: 305px;
+}
+
+.rightImage{
+  height: 305px;
+  padding-left: 10px;
+}
+
+.secondImage{
+  width: 400px;
+  height: 150px;
+}
+
+.thirdImage{
+  width: 400px;
+  padding-top: 5px;
+  height: 150px;
+}
+
+.fourthImage{
+  width: 1310px;
+  padding-left: 19px;
+  padding-top: 20px;
+}
+
+.fourthImage img{
+  width: 100%;
+}

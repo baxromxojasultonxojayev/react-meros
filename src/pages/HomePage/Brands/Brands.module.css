@@ -1,0 +1,21 @@
+.brandLogo{
+  display: flex;
+  align-items: center;
+}
+.brand{
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #273142;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+.brandLogo img{
+  width: 120px;
+  margin-left: 105px;
+  margin-bottom: 100px;
+}
+
+.brandLogo img:first-child{
+  margin-left: 50px;
+}

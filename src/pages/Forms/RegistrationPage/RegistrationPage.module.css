@@ -1,0 +1,46 @@
+.form {
+  width: 500px;
+  background: white;
+  padding: 0;
+  margin-top: 99px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #273142;
+  padding: 60px 10px 30px 50px;
+}
+
+.inputWrapper {
+  padding: 0 50px 0 50px;
+}
+
+.inputText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8d909b;
+  padding: 15px 0 30px 0;
+}
+
+.inputButtons {
+  padding: 0px 45px 50px 50px;
+}
+
+.account{
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #273142;
+}
+
+.account a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #114FEF;
+}

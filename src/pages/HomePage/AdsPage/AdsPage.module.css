@@ -1,0 +1,29 @@
+.adds{
+  padding: 30px 0 0 22px;
+  /* font-size: 100px; */
+}
+
+.addText{
+  font-weight: bold;
+  line-height: 33px;
+  color: #273142;
+  font-size: 28px;
+}
+
+.addList{
+  display: flex;
+  padding: 0;
+}
+
+.addItem{
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.addItem img{
+  width: 418px;
+}
+
+.addItem:first-child{
+  padding-left: 0;
+}

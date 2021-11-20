@@ -1,0 +1,54 @@
+.button{
+  border: none;
+  background: #FFFFFF;
+  color: #273142;
+  width: 90px;
+  padding: 5px 0px 3px 0px;
+  border-right: 0.5px solid #E8EDF1;
+  font-size: 14px;
+  border-radius: 4px  
+}
+
+.priamry:disabled{
+  background: #666666;
+  cursor: not-allowed ;
+}
+.primary:enabled:hover{
+  color: #F5921C;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.primary:enabled:active{
+color: #fd9516;
+}
+.outline {
+  border: 1px solid #e8e9ee;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #FFF;
+  font-weight: 600;
+  padding: 20px 0;
+  color: #666666;
+}
+.outline:enabled:hover {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.full {
+  background: #32386B;
+  color: white;
+  font-weight: 600;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+
+.full:disabled{
+  background: #666666;
+  cursor: not-allowed ;
+}
+.isBlock{
+  width: 100%;
+}

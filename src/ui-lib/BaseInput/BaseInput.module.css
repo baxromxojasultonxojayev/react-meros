@@ -1,0 +1,21 @@
+.input{
+  border-radius: 4px;
+  border: 1px solid #D2D2D2;
+  box-sizing: border-box;
+  min-width: 320px;
+  line-height: 34px;
+}
+
+.input:focus{
+  border: 1px solid #f5d151;
+  transition: 0.2s;
+}
+
+.isBlock{
+  width: 100%;
+}
+
+input:disabled{
+  cursor: not-allowed;
+  background: rgb(209, 208, 208);
+}
