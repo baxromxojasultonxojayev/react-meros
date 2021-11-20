@@ -12,7 +12,7 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={HomePage} exact />
+        <Route path="/react-meros" component={HomePage} exact />
         <Route path="/login-page" component={LoginPage} exact />
         <Route path="/forgot-password" component={ResetPassword} exact />
         <Route path="/getting-code" component={GetCode} exact />
